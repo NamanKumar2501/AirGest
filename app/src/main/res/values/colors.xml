@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF05060A</color>
+    <color name="navy_deep">#FF0A1128</color>
+    <color name="navy">#FF0D1B3D</color>
+    <color name="navy_card">#FF111F45</color>
+    <color name="cyan">#FF00E5FF</color>
+    <color name="electric_blue">#FF2979FF</color>
+    <color name="purple">#FF8E44FF</color>
+    <color name="purple_light">#FFB388FF</color>
+    <color name="green">#FF00E676</color>
+    <color name="red">#FFFF5252</color>
+    <color name="text_primary">#FFE8F1FF</color>
+    <color name="text_secondary">#FF8FA3C7</color>
+    <color name="glass_fill">#1AFFFFFF</color>
+    <color name="glass_stroke">#33FFFFFF</color>
+    <color name="hud_fill">#D90A1128</color>
+</resources>

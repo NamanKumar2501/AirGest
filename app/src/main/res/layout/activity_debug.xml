@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <include layout="@layout/view_header" />
+
+        <TextView
+            android:id="@+id/debugText"
+            style="@style/Widget.AirGest.Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textColor="@color/green"
+            android:textSize="14sp"
+            android:lineSpacingMultiplier="1.2" />
+    </LinearLayout>
+</ScrollView>

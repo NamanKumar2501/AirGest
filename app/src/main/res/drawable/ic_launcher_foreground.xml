@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- neon ring + hand glyph, kept inside the 66dp safe zone -->
+    <path android:strokeColor="#00E5FF" android:strokeWidth="3" android:fillColor="#00000000"
+        android:pathData="M54,54m-27,0a27,27 0 1,1 54,0a27,27 0 1,1 -54,0" />
+    <path android:fillColor="#B388FF"
+        android:pathData="M45,57 L45,42 A2.6,2.6 0 0 1 50.2,42 L50.2,54 L51.4,54 L51.4,38 A2.6,2.6 0 0 1 56.6,38 L56.6,54 L57.8,54 L57.8,40 A2.6,2.6 0 0 1 63,40 L63,55 L64,55 L64,46 A2.6,2.6 0 0 1 69.2,46 L69.2,62 C69.2,70 64,75 56.6,75 C50.5,75 47.5,72 44.5,67 L39.5,58.5 A2.4,2.4 0 0 1 43.8,56.2 Z" />
+</vector>

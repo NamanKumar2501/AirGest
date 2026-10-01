@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Air Control</string>
+    <string name="app_subtitle">Hand Gesture Controller</string>
+
+    <!-- main -->
+    <string name="btn_start">START AIR CONTROL</string>
+    <string name="btn_stop">STOP AIR CONTROL</string>
+    <string name="status_active">🟢 AIR CONTROL ACTIVE</string>
+    <string name="status_stopped">🔴 AIR CONTROL STOPPED</string>
+    <string name="status_ready">🟢 READY</string>
+    <string name="status_setup">🟡 SETUP NEEDED</string>
+    <string name="status_paused">🟡 PAUSED (SCREEN OFF)</string>
+    <string name="row_camera">Camera</string>
+    <string name="row_notifications">Notifications</string>
+    <string name="row_accessibility">Accessibility</string>
+    <string name="state_ok">🟢 ENABLED</string>
+    <string name="state_missing">🔴 DISABLED</string>
+    <string name="state_granted">🟢 GRANTED</string>
+    <string name="state_denied">🔴 NOT GRANTED</string>
+    <string name="btn_grant_camera">GRANT CAMERA</string>
+    <string name="btn_grant_notifications">ALLOW NOTIFICATIONS</string>
+    <string name="btn_enable_accessibility">ENABLE ACCESSIBILITY</string>
+    <string name="menu_settings">⚙  Gesture Settings</string>
+    <string name="menu_profiles">▦  App Profiles</string>
+    <string name="menu_calibration">◎  Calibration</string>
+    <string name="menu_guide">✋  Gesture Guide</string>
+    <string name="menu_debug">🛠  Debug</string>
+    <string name="menu_privacy">🔒  Privacy</string>
+    <string name="camera_explain">Camera access is used to detect hand gestures. Camera frames are processed locally for gesture detection.</string>
+    <string name="notif_explain">Android requires a visible notification while Air Control uses the camera in the background. It lets you stop Air Control at any time.</string>
+    <string name="accessibility_explain">Air Control needs its Accessibility service so it can swipe, tap and scroll in other apps for you. Open Settings → Accessibility → Installed apps → Air Control, then switch it on.</string>
+    <string name="msg_need_camera">Camera permission is required to detect hand gestures.</string>
+    <string name="msg_need_accessibility">Enable the Air Control accessibility service first, then return here and tap START.</string>
+    <string name="msg_camera_denied_settings">Camera permission was denied. You can allow it in the app settings.</string>
+    <string name="msg_started">Air Control started. You can now leave the app.</string>
+    <string name="msg_stopped">Air Control stopped.</string>
+    <string name="msg_start_failed">Air Control could not start: %1$s</string>
+    <string name="msg_a11y_settings_failed">Could not open Accessibility settings. Open them manually from Android Settings.</string>
+    <string name="dialog_camera_title">Camera access</string>
+    <string name="dialog_continue">Continue</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_open_settings">Open settings</string>
+    <string name="dialog_close">Close</string>
+
+    <!-- privacy / guide -->
+    <string name="privacy_title">Privacy</string>
+    <string name="privacy_text">• All hand tracking runs on this phone.\n• Camera frames, hand images and hand landmarks are never uploaded, stored or shared. Air Control does not even request internet access.\n• The Accessibility service is used only to perform the gestures you make (swipe, tap, scroll, drag, zoom). It does not read the content of your screen, passwords or private app data; it only learns which app is in front so it can apply the right profile.\n• Air Control only watches the camera while the \"Air Control Active\" notification is showing. Stop it any time with STOP AIR CONTROL or the notification button.</string>
+    <string name="guide_title">Gesture guide</string>
+    <string name="guide_text">Hold your hand about 30–50 cm from the FRONT camera and rest it for a moment first (Air Control waits for a short pause before it trusts a swipe).\n\n→ SWIPE RIGHT\nMove your hand quickly left → right: next image.\n\n← SWIPE LEFT\nMove your hand quickly right → left: previous image.\nAfter a swipe pause briefly; the return movement is ignored.\n\n👌 PINCH\nTouch thumb and index fingertip while the other fingers stay open: click at the Air Cursor.\n\n👌👌 DOUBLE PINCH\nTwo quick pinches: double click.\n\n🖐 OPEN PALM\nHold an open palm still for a moment (SCROLL MODE), then raise or lower your hand from where it started. Keep it raised to keep scrolling.\n\n✊ FIST\nHold a fist for ½ s to press and hold at the cursor, move your hand to drag, open your hand to release.\n\n🤏 TWO-FINGER ZOOM\nShow only thumb + index (an \"L\"), hold, then move them apart (zoom in) or together (zoom out). Zoom only works in apps that support pinch-to-zoom.</string>
+
+    <!-- settings -->
+    <string name="settings_title">Gesture Settings</string>
+    <string name="settings_fps">Tracking FPS (lower = less battery)</string>
+    <string name="settings_cursor">Show Air Cursor</string>
+    <string name="settings_cursor_size">Cursor size</string>
+    <string name="settings_hud">Show gesture confirmation overlay</string>
+    <string name="settings_invert_scroll">Invert scroll direction</string>
+    <string name="settings_boot">Offer to start Air Control after device restart</string>
+    <string name="settings_boot_hint">Android does not allow the camera to start by itself after a reboot. If this is on, you will get a notification after restart – tap it to start Air Control. Accessibility is never enabled automatically.</string>
+    <string name="settings_battery">Battery optimization settings</string>
+    <string name="settings_battery_hint">Optional. Some phone makers stop background apps aggressively. If Air Control stops by itself, set it to “Not optimized / Unrestricted”. You are never forced to do this.</string>
+
+    <!-- calibration -->
+    <string name="calib_title">Calibration</string>
+    <string name="calib_hint">Changes apply instantly, even while Air Control is running. Use the Debug screen to see live values.</string>
+    <string name="calib_sensitivity">Screen sensitivity</string>
+    <string name="calib_threshold">Gesture threshold (pinch)</string>
+    <string name="calib_swipe_distance">Swipe distance</string>
+    <string name="calib_swipe_speed">Swipe speed</string>
+    <string name="calib_smoothing">Cursor smoothing</string>
+    <string name="calib_cooldown">Cooldown after swipe</string>
+    <string name="calib_reset">RESET TO DEFAULT</string>
+    <string name="calib_reset_done">Calibration reset to default.</string>
+
+    <!-- profiles -->
+    <string name="profiles_title">App Profiles</string>
+    <string name="profiles_hint">The same gesture can do different things in different apps. Unknown apps use the Gallery profile.</string>
+    <string name="profiles_reset">RESET THIS PROFILE</string>
+
+    <!-- debug -->
+    <string name="debug_title">Debug</string>
+
+    <!-- notifications -->
+    <string name="notif_channel_name">Air Control status</string>
+    <string name="notif_channel_desc">Shown while Air Control is using the camera to detect gestures.</string>
+    <string name="notif_title">Air Control Active</string>
+    <string name="notif_text_running">Hand gesture control is running. Camera frames stay on this phone.</string>
+    <string name="notif_text_no_accessibility">Accessibility service is off - gestures can not control other apps. Open Air Control.</string>
+    <string name="notif_action_stop">Stop Control</string>
+    <string name="notif_action_open">Open Air Control</string>
+    <string name="boot_channel_name">Air Control restart reminder</string>
+    <string name="boot_notif_title">Start Air Control?</string>
+    <string name="boot_notif_text">Tap to open Air Control and start hand gesture control.</string>
+
+    <!-- accessibility -->
+    <string name="accessibility_service_label">Air Control</string>
+    <string name="accessibility_description">Lets Air Control perform the swipes, taps, scrolls, drags and zooms that you make with hand gestures in front of the camera. It does not read the content of your screen.</string>
+</resources>
